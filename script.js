@@ -87,7 +87,6 @@ function dragNDropBetweenColumns() {
     })
   })
 
-
   dropableArea.forEach(area => {
     area.addEventListener('dragover', function(e) {
       e.preventDefault();
